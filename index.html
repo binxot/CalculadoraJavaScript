@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>calculadora</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <section>
+            <article>
+                <table>
+                    <tr>
+                        <td colspan="3"><input type="text" id="pantalla" disabled/></td>
+                        <td><button onclick="limpia()">C</td>
+
+                    </tr>
+                    <tr>
+                        <td><button onclick="dibuja(7);">7</button></td>
+                        <td><button onclick="dibuja(8);">8</button></td>
+                        <td><button onclick="dibuja(9);">9</button></td>
+                        <td><button onclick="divide();">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="dibuja(4);">4</button></td>
+                        <td><button onclick="dibuja(5);">5</button></td>
+                        <td><button onclick="dibuja(6);">6</button></td>
+                        <td><button onclick="multiplica();">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="dibuja(1);">1</button></td>
+                        <td><button onclick="dibuja(2);">2</button></td>
+                        <td><button onclick="dibuja(3);">3</button></td>
+                        <td><button onclick="resta();">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="dibujaPunto();">.</button></td>
+                        <td><button onclick="dibuja(0);">0</button></td>
+                        <td><button onclick="igual();">=</button></td>
+                        <td><button onclick="suma();">+</button></td>
+                </table>
+            </article>
+        </section>
+    </body>
+</html>
